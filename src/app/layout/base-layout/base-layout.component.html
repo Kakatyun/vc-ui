@@ -1,0 +1,18 @@
+<app-header></app-header>
+
+<!--<mat-progress-bar *ngIf="progressBarState$ | async" mode="indeterminate"></mat-progress-bar>-->
+
+<div class="container-fluid content-container">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12 col-xl-12 content">
+      <div leftMenu>
+        <app-left-menu></app-left-menu>
+      </div>
+      <div mainArea>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
+
+

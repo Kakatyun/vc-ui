@@ -1,0 +1,29 @@
+.left-menu {
+  float: left;
+  width: 10%;
+}
+
+.left-menu button {
+  display: block;
+  color: black;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.mat-button-base {
+  height: 50px;
+  padding-left: 20px;
+}
+
+.left-menu button:hover {
+  background-color: #ddd;
+}
+
+.left-menu button.active {
+  background-color: #ccc;
+}
