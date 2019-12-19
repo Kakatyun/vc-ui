@@ -1,3 +1,23 @@
-<div class="modal-header">
-  <span>Welcome to our Veterinary Clinic!</span>
+<div class="icon-bar">
+  <a class="active" routerLinkActive="active" [routerLink]="['/news']"><i class="fa fa-clinic-medical"></i></a>
+  <a routerLinkActive="active" [routerLink]="['/clinic-services']"><i class="fas fa-notes-medical"></i></a>
+  <!--  map todo change tab name??-->
+  <a routerLinkActive="active" [routerLink]="['/clinics']"><i class="fas fa-map-marked-alt"></i></a>
+  <a routerLinkActive="active" [routerLink]="['/veterinarians']"><i class="fas fa-user-md"></i></a>
+
+<!--  todo replace with search input https://www.w3schools.com/HOWTO/howto_css_searchbar.asp-->
+  <a routerLinkActive="active" [routerLink]="['/search']"><i class="fa fa-search"></i></a>
+
+  <!--  todo switch between username if user logged in, login icon otherwise-->
+  <a class="btn-login" routerLinkActive="active" [routerLink]="['/login']"><i class="fas fa-user-plus"></i></a>
 </div>
+
+<!--todo items to discuss-->
+<!--<i class="fa fa-home"></i>-->
+<!--<i class="fas fa-user-nurse"></i>-->
+<!--<i class="fas fa-phone"></i>-->
+
+<!--Please find more items on https://fontawesome.com/icons?d=gallery-->
+<!--you're unable use PRO items-->
+
+<!--todo investigate beauty of https://www.w3schools.com/HOWTO/howto_js_tab_header.asp-->

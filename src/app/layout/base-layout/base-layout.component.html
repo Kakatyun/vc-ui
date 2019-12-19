@@ -5,7 +5,7 @@
 <div class="container-fluid content-container">
   <div class="row">
     <div class="col-md-12 col-sm-12 col-xs-12 col-xl-12 content">
-      <div leftMenu>
+      <div leftMenu *ngIf="isLoggedIn">
         <app-left-menu></app-left-menu>
       </div>
       <div mainArea>
