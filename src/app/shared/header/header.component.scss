@@ -1,0 +1,39 @@
+.icon-bar {
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  text-align: center;
+  width: calc(100% / 7);
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 32px;
+
+  &.btn-login {
+    float: right;
+    color: white;
+    width: 10%;
+    background-color: #4CAF50;
+  }
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.btn-login {
+  float: right;
+  padding-right: 20px;
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+  background-color: #4CAF50;
+
+}
